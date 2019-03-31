@@ -1,4 +1,4 @@
-# ansible-tower-installation
+# ansible-tower-installation on digital ocean:
 yum install -y epel-release 
 yum install -y yum-utils device-mapper-persistent-data lvm2 ansible git python-devel python-pip python-docker-py vim-enhanced 
 yum-config-manager --add-repo https://download.docker.com/linux/centos/docker-ce.repo 
